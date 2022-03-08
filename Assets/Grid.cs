@@ -9,7 +9,7 @@ public class Grid : MonoBehaviour
 
     void Start()
     {
-        // GenerateOutwards(Vector3.zero, 10,.5f);
+        GenerateOutwards(Vector3.zero, 10,.5f);
     }
     // void Update()
     // {
@@ -63,7 +63,7 @@ public class Grid : MonoBehaviour
     //video-related stuff.
         
     public Vector3 originPoint;
-    
+
     public void GenerateAt()
     {
         Vector3 origin =originPoint;
